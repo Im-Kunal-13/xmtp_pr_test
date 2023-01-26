@@ -226,6 +226,7 @@ const Home: NextPage = () => {
             streamConversations()
             // listConversations()
             // buildConversationId()
+            listConversations()
         }
         return () => {
             closeConversationStream()
